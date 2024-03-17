@@ -1,4 +1,4 @@
----ex1 (WRONG)
+---ex1 
 Select NAME From CITY Where COUNTRYCODE = 'USA' And Population > 120000;
 ---ex2
 Select * From city where countrycode = 'JPN';

@@ -1,0 +1,8 @@
+/*Bài tập ngày 11/
+---ex1
+select COUNTRY.Continent,
+floor (avg (CITY.Population)) as average 
+from CITY
+inner join COUNTRY
+on CITY.CountryCode = COUNTRY.Code
+group by COUNTRY.Continent
